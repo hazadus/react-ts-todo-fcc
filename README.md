@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# TypeScript + React Tutorial App - ToDo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## References
+- [YouTube Tutorial](https://www.youtube.com/watch?v=FJDVKeh7RJI)
 
 ## Available Scripts
 
