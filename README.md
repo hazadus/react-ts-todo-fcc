@@ -2,7 +2,10 @@
 
 ## References
 - [YouTube Tutorial](https://www.youtube.com/watch?v=FJDVKeh7RJI)
+- [Author's Code](https://github.com/piyush-eon/react-typescript-taskify)
 - [Google Fonts: Neucha](https://fonts.google.com/specimen/Neucha)
+- [React useRef Hook](https://reactjs.org/docs/hooks-reference.html#useref)
+- [React-Icons](https://react-icons.github.io/react-icons)
 
 ## Available Scripts
 

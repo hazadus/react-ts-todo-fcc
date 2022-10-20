@@ -1,0 +1,49 @@
+.form-add-todo {
+    display: flex;
+    width: 90%;
+    position: relative; /* because button will have absolute position to be inside the input box */
+    align-items: center;
+}
+
+.input-add-todo {
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 30px; /* to add giant space around input text */
+    font-size: 25px;
+    border: none;
+    /*font-family: Neucha, cursive;*/
+    transition: 0.2s; /* time between transitions of state, eg :hover */
+    box-shadow: inset 0 0 5px black; /* inset is awesome! */
+}
+
+.input-add-todo:focus {
+    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
+    outline: none; /* no selection outline */
+}
+
+.submit-add-todo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    border-radius: 50px;
+    right: 0px; /* position it on the right side */
+    border: none;
+    font-size: 25px;
+    background-color: #2f74c0;
+    line-height: 0; /* centers icon vertically! */
+    color: white;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px black;
+}
+
+.submit-add-todo:hover {
+    background-color: #388ae2;
+    transform: scale(1.03);
+    box-shadow: 0 0 14px black;
+}
+
+.submit-add-todo:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px black;
+}
