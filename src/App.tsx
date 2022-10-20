@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      Hello TypeScript World!
-    </div>
-  );
+// Type: FC = functional component
+const App: React.FC = () => {
+
+    return (
+        <div className="App">
+            <span className='heading'>Taskifier</span>
+        </div>
+    );
 }
 
 export default App;

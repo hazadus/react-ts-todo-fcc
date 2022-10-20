@@ -2,6 +2,7 @@
 
 ## References
 - [YouTube Tutorial](https://www.youtube.com/watch?v=FJDVKeh7RJI)
+- [Google Fonts: Neucha](https://fonts.google.com/specimen/Neucha)
 
 ## Available Scripts
 
