@@ -30,7 +30,7 @@ const App: React.FC = () => {
     return (
         <div className="App">
             <header>
-                Taskifier
+                Озадачиватель
             </header>
             <InputField todo={todo}
                         setTodo={setTodo}
@@ -41,7 +41,7 @@ const App: React.FC = () => {
 
             <footer>
                 <p>
-                    Made with <SiTypescript /> <SiReact /> <SiHtml5 /> <SiCss3 /> <SiPython /> <SiPycharm /> <SiFastapi /> <SiMongodb />
+                    Сделано с <SiTypescript /> <SiReact /> <SiHtml5 /> <SiCss3 /> <SiPython /> <SiPycharm /> <SiFastapi /> <SiMongodb />
                 </p>
             </footer>
         </div>

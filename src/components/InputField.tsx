@@ -22,7 +22,7 @@ const InputField:React.FC<Props> = ({ todo, setTodo, handleOnSubmit }) => {
             <input className='input-add-todo'
                    ref={inputRef}
                    type='input'
-                   placeholder='Add new todo'
+                   placeholder='Добавить новую задачку'
                    value={todo}
                    onChange={(event) => {
                        setTodo(event.target.value)
