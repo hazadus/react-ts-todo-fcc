@@ -16,7 +16,7 @@ const TodoItem:React.FC<Props> = ({ todo, todoList, setTodoList }) => {
             <span className='text-todo-item'>
                 { todo.todo }
             </span>
-            <div>
+            <div className="buttons-todo-item">
                 <span className='icon-todo-item'><AiFillEdit /></span>
                 <span className='icon-todo-item'><AiFillDelete /></span>
                 <span className='icon-todo-item'><MdDone /></span>
